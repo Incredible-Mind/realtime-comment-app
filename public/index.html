@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.ico">
+    <title>Realtime Comment Website</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h4><strong>Realtime Comment Website using Nodejs, Express,
+                MongoDB, Socket.io, vanilla JavaScript</strong></h4>
+                <p>Realtime Comment Website is a website that allows you to chat with each other. 
+                    We are not responsible for any illegal work or anything on this website done by you. 
+                    Only you and your team will responsible for this.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="border-bottom pb-2">Comment</h4>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="">Write a comment</label>
+                    <textarea id="textarea" rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button id="submitBtn" class="btn btn-primary float-right rounded-full">Post Comment</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="typing text-success"></div>
+                <ul class="comment__box">
+                    <!-- <li class="comment">
+                        <div class="card border-light mb-3">
+                            <div class="card-body">
+                                <h6>John Doe</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quibusdam natus libero
+                                incidunt commodi veritatis expedita sapiente
+                                autem qui totam. Cupiditate tempore ducimus
+                                assumenda aut! Fugit, fugiat. Dolor mollitia
+                                optio nobis.</p>
+                                <div>
+                                    <img src="/img/clock.ico" alt="clock">
+                                    <small>11:30 PM</small>
+                                </div>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="/js/app.js"></script>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "Realtime-Comment-App",
+  "version": "1.0.0",
+  "description": "This is our realtime comment app",
+  "main": "index.js",
+  "author": "Incredible Mind",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.7",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
